@@ -1,4 +1,5 @@
 #include <stdio.h> // ❓❓
+#include <stdlib.h>
 
 int main()
 {
@@ -13,10 +14,10 @@ int main()
     {
         int *ptr = &marks[i];
         ptrint = (int *)ptr;
-        printf("\n");
 
-        for (int j = 0; j < 3; j++)
-            printf("%d", ptrint[j]);
+        for (int j = 0; j < 2; j++)
+            printf("%d ", ptrint[j]);
+        printf("\n");
     }
     return 0;
 }
