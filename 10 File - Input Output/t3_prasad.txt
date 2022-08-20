@@ -1,0 +1,2 @@
+The number is 28
+Thanks for using fprintf
